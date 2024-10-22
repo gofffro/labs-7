@@ -65,6 +65,8 @@ void findOldestBook(vector<Book> books) {
 }
 
 int main() {
+    setlocale(LC_ALL, "Russian");
+    
     string path = "books.txt";
     string author;
     vector<Book> books = getBooks(path);
